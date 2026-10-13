@@ -100,6 +100,7 @@ h2{font-size:44px;letter-spacing:-2px;line-height:1.16}
 .download-note p{font-size:10px;color:var(--muted);line-height:1.9;margin-top:4px}
 .download-note>a{flex-shrink:0;font-size:10px;color:var(--accent)}
 .contribute-section{background:var(--accent);color:var(--ink)}
+.contribute-section a:focus-visible{outline-color:var(--ink)}
 .contribute-inner{display:grid;grid-template-columns:1fr 1fr;gap:92px;padding-block:77px;align-items:center}
 .contribute-inner .eyebrow{color:#465d2c;margin-bottom:27px}
 .contribute-inner h2{font-size:46px}
