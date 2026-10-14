@@ -29,6 +29,13 @@ Keep source/build/VM/hardware results distinct. General installation images, a w
 NPU backend, SDK/Runtime implementations and untested board support are not implied.
 Download images and OS sets belong to the separate release channel, not this repository.
 
+The current download selects the immutable `c5d396f5698b68e956b29ee5b256bc7877e6c517`
+installation candidate. Its amd64 UEFI no-X11 profile passed public GitHub HTTPS
+installation and upgrade from the preceding build, followed by complete cold backup recovery.
+The [VM upgrade guide](https://github.com/oxtech-ember/EmberBSD/blob/main/ember/boot/amd64-vm-upgrade.md)
+owns the procedure and its limits. This covers two builds of EmberBSD 1.0, not an
+automatic rollback service or physical-device acceptance.
+
 Initial content was reviewed against:
 
 - EmberBSD `7f5df9ed254d062f5fab03cc8f7a917b13df38e2`: README, build guide and board pages.
