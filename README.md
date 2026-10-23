@@ -2,19 +2,25 @@
 
 The public project page for [EmberBSD](https://github.com/oxtech-ember/EmberBSD).
 Tagline: **Unix for creators and creatures**. EmberBSD is an independent
-NetBSD 11 fork: one open system, from the kernel through Ports, that an AI
-agent can study and adapt.
+NetBSD 11 fork with a coherent base system and shared dependencies in Ports.
+An AI agent can study the public sources and help adapt the system.
 
 ## Messaging
 
-The homepage states that tagline, the single open tree, Spark as an optional
-agent, and one OS family from microcontrollers to boards. Phones, tablets,
-TVs, Plasma Mobile, Plasma Bigscreen, the commercial edition and the smart
-home are marked in progress. Do not claim a speed or reliability advantage
-over Linux. Do not list a device as supported without a
-[DevBoards](https://github.com/oxtech-ember/EmberBSD-DevBoards) profile.
-Do not publish private plans, prices, budgets, team details or internal names.
-The site is English only.
+The homepage invites makers to imagine a device, follow the development path,
+and start with a documented board and an application example. Three illustrated
+project concepts show a workshop helper, a robot and a reused screen. They are
+ideas, not photographs or demonstrations of accepted hardware.
+
+The design follows the original flame mascot: warm paper, dark brown, burnt
+orange and amber. Sora and the unchanged mascot are served locally. Inline SVG
+concept sketches are original website illustrations. The page has no scripts.
+
+Keep Spark optional. Mark phone, tablet, TV, creator-tool and general NPU work
+as in development. Put board evidence in DevBoards and link to it. Do not claim
+a speed or reliability advantage over Linux or complete hardware support.
+The commercial edition is planned, not available. Do not publish private plans,
+prices, budgets, team details or internal names. The site is English only.
 
 Site: **https://oxtech-ember.github.io/EmberBSD-Website/**
 
@@ -45,7 +51,7 @@ Download images and OS sets belong to the separate release channel, not this rep
 The current download selects the immutable `c5d396f5698b68e956b29ee5b256bc7877e6c517`
 installation candidate. Its amd64 UEFI no-X11 profile passed public GitHub HTTPS
 installation and upgrade from the preceding build, followed by complete cold backup recovery.
-The [VM upgrade guide](https://github.com/oxtech-ember/EmberBSD/blob/main/ember/boot/amd64-vm-upgrade.md)
+The [VM upgrade guide](https://github.com/oxtech-ember/EmberBSD/blob/main/doc/guide/amd64-vm-upgrade.md)
 owns the procedure and its limits. This covers two builds of EmberBSD 1.0, not an
 automatic rollback service or physical-device acceptance.
 
@@ -58,7 +64,7 @@ Initial content was reviewed against:
 Check current public sources before updating support statements. Do not publish private
 plans, internal addresses, personal logs, credentials or personalized images.
 Write public content in English. Keep changes focused and explain validation limits.
-The site was created with assistance from OpenAI Codex GPT-6.
+The site was created and updated with assistance from OpenAI Codex.
 
 Messaging on 23 October 2026 was checked against the public OS guides,
 the DevBoards catalog, Spark, the SDK, the KiCad, Plasma Mobile, Plasma
