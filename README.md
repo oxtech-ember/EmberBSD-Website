@@ -1,7 +1,20 @@
 # EmberBSD Website
 
-The public project page for [EmberBSD](https://github.com/oxtech-ember/EmberBSD),
-an independent NetBSD 11 fork for intelligent devices.
+The public project page for [EmberBSD](https://github.com/oxtech-ember/EmberBSD).
+Tagline: **Unix for creators and creatures**. EmberBSD is an independent
+NetBSD 11 fork: one open system, from the kernel through Ports, that an AI
+agent can study and adapt.
+
+## Messaging
+
+The homepage states that tagline, the single open tree, Spark as an optional
+agent, and one OS family from microcontrollers to boards. Phones, tablets,
+TVs, Plasma Mobile, Plasma Bigscreen, the commercial edition and the smart
+home are marked in progress. Do not claim a speed or reliability advantage
+over Linux. Do not list a device as supported without a
+[DevBoards](https://github.com/oxtech-ember/EmberBSD-DevBoards) profile.
+Do not publish private plans, prices, budgets, team details or internal names.
+The site is English only.
 
 Site: **https://oxtech-ember.github.io/EmberBSD-Website/**
 
@@ -46,6 +59,12 @@ Check current public sources before updating support statements. Do not publish 
 plans, internal addresses, personal logs, credentials or personalized images.
 Write public content in English. Keep changes focused and explain validation limits.
 The site was created with assistance from OpenAI Codex GPT-6.
+
+Messaging on 23 October 2026 was checked against the public OS guides,
+the DevBoards catalog, Spark, the SDK, the KiCad, Plasma Mobile, Plasma
+Bigscreen and smart-home Ports probes, and the published amd64 installation
+candidate. Board links point at DevBoards. The former `ember/boards` paths
+are not on the current OS tree. Guide links point at `doc/guide/`.
 
 ## Assets and licensing
 
