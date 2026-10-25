@@ -8,9 +8,23 @@ An AI agent can study the public sources and help adapt the system.
 ## Messaging
 
 The homepage invites makers to imagine a device, follow the development path,
-and start with a documented board and an application example. Three illustrated
+meet Spark, and start with a documented board and an application example. Three illustrated
 project concepts show a workshop helper, a robot and a reused screen. They are
 ideas, not photographs or demonstrations of accepted hardware.
+
+Spark speaks in the first person in the notebook excerpt. His voice is curious,
+dry and self-deprecating. He can dream about Mars while an old phone remains a prospect.
+EmberBSD is his portable home. Use ordinary words for his digital belongings.
+Keep the project voice factual. Do not present plans as completed experiments.
+Published checks and their limits sit beside the plans, with links to the source.
+
+The diary link is https://t.me/emberbsd_spark. Do not add a language label.
+Add another social channel only after its real account is available.
+
+The Unix and Ports sections explain shared interfaces and shared fixes.
+The BSD history section links to primary sources. It does not imply affiliation,
+endorsement, inherited hardware support or a security advantage over other systems.
+State licenses by component. Do not describe the complete dependency tree as BSD-licensed.
 
 The design follows the original flame mascot: warm paper, dark brown, burnt
 orange and amber. Sora and the unchanged mascot are served locally. Inline SVG
@@ -55,22 +69,27 @@ The [VM upgrade guide](https://github.com/oxtech-ember/EmberBSD/blob/main/doc/gu
 owns the procedure and its limits. This covers two builds of EmberBSD 1.0, not an
 automatic rollback service or physical-device acceptance.
 
-Initial content was reviewed against:
-
-- EmberBSD `7f5df9ed254d062f5fab03cc8f7a917b13df38e2`: README, build guide and board pages.
-- EmberBSD-Ports `24fff6f2e0a58a48c3bfe0586ff5198cfabb9f43`: dependency profiles and source probes.
-- Public EmberBSD-Examples application procedures.
-
 Check current public sources before updating support statements. Do not publish private
 plans, internal addresses, personal logs, credentials or personalized images.
 Write public content in English. Keep changes focused and explain validation limits.
 The site was created and updated with assistance from OpenAI Codex.
 
-Messaging on 23 October 2026 was checked against the public OS guides,
-the DevBoards catalog, Spark, the SDK, the KiCad, Plasma Mobile, Plasma
-Bigscreen and smart-home Ports probes, and the published amd64 installation
-candidate. Board links point at DevBoards. The former `ember/boards` paths
-are not on the current OS tree. Guide links point at `doc/guide/`.
+Messaging on 25 October 2026 was checked against these public owners:
+
+- [Spark scope](https://github.com/oxtech-ember/EmberBSD-Spark/blob/main/README.md)
+  and [validation limits](https://github.com/oxtech-ember/EmberBSD-Spark/blob/main/docs/testing.md#validation-scope).
+- [Ports shared dependencies](https://github.com/oxtech-ember/EmberBSD-Ports/blob/main/docs/update-ports.md#shared-base-dependencies).
+- [EmberBSD additions license](https://github.com/oxtech-ember/EmberBSD/blob/main/ember/LICENSE)
+  and [Spark license](https://github.com/oxtech-ember/EmberBSD-Spark/blob/main/LICENSE).
+- The [DevBoards catalog](https://github.com/oxtech-ember/EmberBSD-DevBoards) and the published amd64 installation candidate.
+- [NASA/TM—2006-214083](https://ntrs.nasa.gov/api/citations/20060008707/downloads/20060008707.pdf),
+  section 6.1, printed page 11 (PDF page 17): the SAMS Interim Control Unit used NetBSD.
+  The report's later SpreadRecorder prototype used Linux; do not merge those claims.
+- [Netflix Open Connect](https://openconnect.netflix.com/en/appliances/): appliance software and FreeBSD contributions.
+- [OpenSSH history](https://www.openssh.org/history.html): OpenBSD origins and the portable version.
+
+The notebook is an introduction on this website, not evidence of phone installation
+or a completed space project. The Telegram link opens the channel, not a specific post.
 
 ## Assets and licensing
 
@@ -89,3 +108,10 @@ the site does not make third-party font requests or include tracking scripts.
 
 Website code uses [BSD-2-Clause](LICENSE). Upstream OS and companion components retain
 their own authorship and licenses.
+
+The 1200 × 630 social image is `docs/assets/social-card.png`.
+Its source is `docs/assets/social-card.html`. It lays out the original mascot and bundled Sora font.
+To refresh it, serve `docs/`, open that HTML at 1200 × 630 CSS pixels, and wait for the font and image.
+Capture the page at device scale 1, without browser chrome or resizing, then inspect the PNG.
+Keep its metadata dimensions in `docs/index.html` in sync. The source page has `noindex`.
+The composition does not change the mascot's license.
