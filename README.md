@@ -53,6 +53,28 @@ Before publishing, check desktop and phone widths, keyboard navigation, contrast
 internal anchors, all asset responses and the linked public source documents.
 Check the deployed commit, Pages build, HTTP response and rendered page after publishing.
 
+## Search indexing
+
+The homepage declares its canonical HTTPS URL. `docs/sitemap.xml` lists that page.
+Keep both URLs in sync when connecting a custom domain. Keep the 404 page and
+social-card source out of the sitemap; both have `noindex` metadata.
+
+Add `https://oxtech-ember.github.io/EmberBSD-Website/` as a URL-prefix property in
+[Google Search Console](https://search.google.com/search-console/).
+Verify ownership with Google's HTML meta tag or verification file. Publish the
+exact value supplied by the owner's account, then complete verification there.
+Submit `https://oxtech-ember.github.io/EmberBSD-Website/sitemap.xml` and use URL
+Inspection to check the homepage and request indexing. Keep the verification
+tag or file after verification. Do not publish account credentials.
+
+This project cannot serve the host-level `/robots.txt` from its `docs/` directory.
+A file at `/EmberBSD-Website/robots.txt` would not control crawling.
+The host currently returns 404 for `/robots.txt`, which does not block crawling.
+See Google's [robots.txt rules](https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec).
+
+Indexing and search positions are not guaranteed. Use Search Console to check
+the actual indexing status; a missing search result alone is not a diagnosis.
+
 ## Content and boundaries
 
 The site introduces the OS, optional application stacks, board support and ways to start.
