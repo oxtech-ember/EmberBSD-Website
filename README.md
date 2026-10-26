@@ -67,10 +67,14 @@ Submit `https://oxtech-ember.github.io/EmberBSD-Website/sitemap.xml` and use URL
 Inspection to check the homepage and request indexing. Keep the verification
 tag or file after verification. Do not publish account credentials.
 
-This project cannot serve the host-level `/robots.txt` from its `docs/` directory.
-A file at `/EmberBSD-Website/robots.txt` would not control crawling.
-The host currently returns 404 for `/robots.txt`, which does not block crawling.
-See Google's [robots.txt rules](https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec).
+Host-level files belong to
+[oxtech-ember.github.io](https://github.com/oxtech-ember/oxtech-ember.github.io).
+That repository serves `/robots.txt`, which points to this project's sitemap,
+and the root-level verification file for Yandex Webmaster. Yandex verifies the
+whole host, while Google Search Console can verify this project's URL prefix.
+Keep verification files at the location required by each service.
+A file at `/EmberBSD-Website/robots.txt` would not control crawling;
+see Google's [robots.txt rules](https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec).
 
 Indexing and search positions are not guaranteed. Use Search Console to check
 the actual indexing status; a missing search result alone is not a diagnosis.
