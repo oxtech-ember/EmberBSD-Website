@@ -38,6 +38,9 @@ prices, budgets, team details or internal names. The site is English only.
 
 Site: **https://oxtech-ember.github.io/EmberBSD-Website/**
 
+Keep the EmberBSD name and OS description visible on the first screen.
+Use a descriptive page title and matching social metadata. Preserve the tagline.
+
 ## Publish
 
 The site is static HTML and CSS, with no JavaScript, package dependencies or build step.
